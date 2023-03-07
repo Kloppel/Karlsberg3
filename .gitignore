@@ -8,7 +8,8 @@ kbp2_from_tar/
 #Ignore APBS Coloumb, Karlsberg2.x86_64_fixed and tapbs_1.3_cav_enere because the executables are too large for github
 binaries_karlsberg/bin/*
 
-#Ignore .eggs
+#Ignore .eggs (Python packages at the date of final Karlsberg2+ development): numpy, since only numpy has files larger than the 3MB limit
+# find limit of files with "find . -type f -size +3M"
 lib/python2.7/site-packages/numpy/
 
 #Ignore libraries fort GNU
