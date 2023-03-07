@@ -1,5 +1,12 @@
 #Ignore filetypes typically too large for github
 *.dcd
 *.tar.gz
+
 #Ignore basic code with old repository attached
 kbp2_from_tar/
+
+#Ignore APBS Coloumb, Karlsberg2.x86_64_fixed and tapbs_1.3_cav_enere because the executables are too large for github
+binaries_karlsberg/bin/*
+
+#Ignore .eggs
+lib/
