@@ -1,0 +1,13 @@
+numpy>=1.5.0
+biopython>=1.59
+networkx>=1.0
+GridDataFormats>=0.3.2
+six>=1.4.0
+
+[AMBER]
+netCDF4>=1.0
+
+[analysis]
+matplotlib
+scipy
+seaborn

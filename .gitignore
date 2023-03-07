@@ -9,7 +9,10 @@ kbp2_from_tar/
 binaries_karlsberg/bin/*
 
 #Ignore .eggs
-lib/
+lib/python2.7/site-packages/numpy/
 
 #Ignore libraries fort GNU
 lib_fort_gnu/
+
+#Ignore old CHARMM installation used for development back then
+charmm/
