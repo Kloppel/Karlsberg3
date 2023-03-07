@@ -1,0 +1,112 @@
+* salt bridge opening patches inverting
+* by Jovan Dragelj 2014
+*
+27  1
+
+DECL -CA 
+DECL -C 
+DECL -O 
+DECL +N 
+DECL +HN 
+DECL +CA 
+DEFA FIRS NTER LAST CTER 
+AUTO ANGLES DIHE
+
+PRES EPPS         1.00 ! positive glu test for sb function - ok
+GROUP 
+ATOM CG   CT2 -0.21
+ATOM CD   CD   1.75
+ATOM OE1  OH1 -0.61
+ATOM OE2  OH1 -0.55
+ATOM HE1  H    0.44
+ATOM HE2  H    0.00
+
+PRES DPPS         1.00 ! positive glu test for sb function - ok
+GROUP
+ATOM CB   CT2 -0.21
+ATOM CG   CD   1.75
+ATOM OD1  OH1 -0.61
+ATOM OD2  OH1 -0.55
+ATOM HD1  H    0.44
+ATOM HD2  H    0.00
+
+PRES LYSS        -1.00 ! negative lys test for sb function 
+GROUP
+ATOM NZ   NH3 -1.97
+ATOM HZ1  HC   0.22
+ATOM HZ2  HC   0.22
+ATOM HZ3  HC   0.22
+ 
+PRES ARGS        -1.00 ! negative arg test for sb function 
+GROUP
+ATOM NE   NC2  -0.81
+ATOM HE   HC    0.44
+ATOM CZ   C     0.71              
+ATOM NH1  NC2  -1.40                 
+ATOM HH11 HC    0.27               
+ATOM HH12 HC    0.27                  
+ATOM NH2  NC2  -1.40                  
+ATOM HH21 HC    0.27                  
+ATOM HH22 HC    0.27 
+
+PRES HSPS        -1.00  ! Protonated His -> negative sb test - same as HSP from top.inp - all fine charge of 2
+ATOM NE2  NR3  -1.51
+ATOM CG   CPH1  0.19
+ATOM ND1  NR3  -1.51
+ATOM HD1  H     0.44
+ATOM CE1  CPH2  0.32
+ATOM HE2  H     0.44
+ATOM CD2  CPH1  0.19
+ATOM CB   CT2  -0.05
+ATOM HD2  HR1   0.13
+ATOM HE1  HR2   0.18
+
+
+
+!PRES HSES        -1.00  ! NEUTRAL His -> negative sb test
+!ATOM NE2  NR3  -1.36
+!ATOM CG   CPH1  0.22
+!ATOM ND1  NR3  -0.70
+!ATOM HD1  H     0.00
+!ATOM CE1  CPH2  0.25
+!ATOM HE2  H     0.32
+!ATOM CD2  CPH1 -0.05
+!ATOM CB   CT2  -0.08
+!ATOM HD2  HR1   0.09
+!ATOM HE1  HR2   0.13
+
+!PRES HSDS        -1.00  ! neutral his - sb function
+!ATOM NE2  NR3  -0.70
+!ATOM CG   CPH1 -0.05
+!ATOM ND1  NR3  -1.36
+!ATOM HD1  H     0.32
+!ATOM CE1  CPH2  0.25
+!ATOM HE2  H     0.00
+!ATOM CD2  CPH1  0.22
+!ATOM CB   CT2  -0.09
+!ATOM HD2  HR1   0.10
+!ATOM HE1  HR2   0.13
+
+PRES TYRS	  1.00  ! Positive tyrosine for opening at ph=-10	
+GROUP
+GROUP
+ATOM CZ   CA      0.11
+ATOM OH   OH1    0.46
+ATOM HH   H       0.43
+
+PRES CTES         1.00  ! positive CTERminus
+GROUP                  	
+ATOM C    CC         1.34
+ATOM OT1  OC     -0.17
+ATOM OT2  OC     -0.17
+
+PRES NTES           -1.00 ! negative N-terminus
+GROUP                 
+ATOM N    NH3  -1.97
+ATOM HT1  HC   0.22
+ATOM HT2  HC   0.22
+ATOM HT3  HC   0.22 
+
+
+
+

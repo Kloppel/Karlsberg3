@@ -1,0 +1,18 @@
+* additional parameters for special residues
+* Gernot Kieseritzky
+
+BOND
+H    CLA   340.000     1.2662 ! HCL, from jaguar
+
+ANGLES
+OH1  CD   OH1   50.000    123.000  210.00   2.26200 ! DPP/EPP
+HA   CA   HA  1000.000     97.350                   ! TYP
+H    OH1  H      55.000   104.5200                  ! TYH, from WAT
+
+DIHEDRALS
+OH1  CA   CA   HA       0.1950  3     0.00 ! ALLOW  ! TYP
+HP   CA   CA   HA       0.1950  3     0.00 ! ALLOW  ! TYP
+
+IMPROPER
+OH1  X    X    CD    100.0000         0      0.0000 ! DPP/EPP
+HT   OT   HT   HT     15.0000         0    180.0000 ! OXO

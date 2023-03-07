@@ -10,3 +10,6 @@ binaries_karlsberg/bin/*
 
 #Ignore .eggs
 lib/
+
+#Ignore libraries fort GNU
+lib_fort_gnu/
