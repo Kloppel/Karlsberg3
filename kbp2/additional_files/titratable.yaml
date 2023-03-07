@@ -1,0 +1,224 @@
+---
+DPP:
+ - sym: R
+   pka: 0.00
+   apc:
+    CB: -0.21
+    CG: 0.75
+    OD1: -0.61
+    OD2: -0.55
+    HD1: 0.44
+    HD2: 0.00
+   patch: DPP1
+ - sym: D
+   pka: 4.00
+   apc:
+    CB: -0.28
+    CG: 0.62
+    OD1: -0.76
+    OD2: -0.76
+    HD1: 0.00
+    HD2: 0.00
+ - sym: 0
+   pka: 0.00
+   apc:
+    CB: -0.21
+    CG: 0.75
+    OD1: -0.55
+    OD2: -0.61
+    HD1: 0.00
+    HD2: 0.44
+   patch: DPP2
+EPP:
+ - sym: R
+   pka: 0.00
+   apc:
+    CG: -0.21
+    CD: 0.75
+    OE1: -0.61
+    OE2: -0.55
+    HE1: 0.44
+    HE2: 0.00
+   patch: EPP1
+ - sym: D
+   pka: 4.40
+   apc:
+    CG: -0.28
+    CD: 0.62
+    OE1: -0.76
+    OE2: -0.76
+    HE1: 0.00
+    HE2: 0.00
+ - sym: 0
+   pka: 0.00
+   apc:
+    CG: -0.21
+    CD: 0.75
+    OE1: -0.55
+    OE2: -0.61
+    HE1: 0.00
+    HE2: 0.44
+   patch: EPP2
+HSP:
+ - sym: R
+   pka: 0.00
+   apc:
+    NE2: -0.70
+    CG: -0.05
+    ND1: -0.36
+    HD1: 0.32
+    CE1: 0.25
+    HE2: 0.00
+    CD2: 0.22
+    CB: -0.09
+    HD2: 0.10
+    HE1: 0.13
+   patch: HSPD
+ - sym: P
+   pka: -7.00
+   apc:
+    NE2: -0.51
+    CG: 0.19
+    ND1: -0.51
+    HD1: 0.44
+    CE1: 0.32
+    HE2: 0.44
+    CD2: 0.19
+    CB: -0.05
+    HD2: 0.13
+    HE1: 0.18
+ - sym: 0
+   pka: -0.40
+   apc:
+    NE2: -0.36
+    CG: 0.22
+    ND1: -0.70
+    HD1: 0.00
+    CE1: 0.25
+    HE2: 0.32
+    CD2: -0.05
+    CB: -0.08
+    HD2: 0.09
+    HE1: 0.13
+   patch: HSPE
+ARG:
+ - sym: R
+   pka: 0.00
+   apc:
+    NE: -0.81
+    HE: 0.44
+    CZ: 0.71
+    NH1: -0.90
+    HH11: 0.27
+    HH12: 0.27
+    NH2: -0.90
+    HH21: 0.27
+    HH22: 0.27
+   patch: ARGR
+ - sym: P
+   pka: -12.00
+   apc:
+    NE: -0.70
+    HE: 0.44
+    CZ: 0.64
+    NH1: -0.80
+    HH11: 0.46
+    HH12: 0.46
+    NH2: -0.80
+    HH21: 0.46
+    HH22: 0.46
+   #patch: ARGP
+LYS:
+ - sym: R
+   pka: 0.00
+   apc:
+    NZ: -0.97
+    HZ1: 0.22
+    HZ2: 0.22
+    HZ3: 0.22
+   patch: LYSR
+ - sym: P
+   pka: -10.40
+   apc:
+    NZ: -0.30
+    HZ1: 0.33
+    HZ2: 0.33
+    HZ3: 0.33
+   #patch: LYSP
+TYR:
+ - sym: R
+   pka: 0.00
+   apc:
+    CG: 0.000
+    CD1: -0.115
+    HD1: 0.115
+    CE1: -0.115
+    HE1: 0.115
+    CZ: 0.110
+    OH: -0.540
+    HH: 0.430
+    CE2: -0.115
+    HE2: 0.115
+    CD2: -0.115
+    HD2: 0.115
+ - sym: D
+   pka: 9.6
+   apc:
+    CG: -0.341
+    CD1: 0.028
+    HD1: 0.072
+    CE1: -0.525
+    HE1: 0.124
+    CZ: 0.769
+    OH: -0.826
+    HH: 0.00
+    CE2: -0.525
+    HE2: 0.124
+    CD2: 0.028
+    HD2: 0.072
+   patch: TYRD
+CYS:
+ - sym: R
+   pka: 0.00
+   apc:
+    CB: -0.11
+    SG: -0.23
+    HG1: 0.16
+ - sym: D
+   pka: 9.5
+   apc:
+    CB: -0.25
+    SG: -0.93
+    HG1: 0.00
+   patch: CYSD
+NTE:
+ - sym: R
+   pka: 0.00
+   apc:
+    N: -0.97
+    HT1: 0.22
+    HT2: 0.22
+    HT3: 0.22
+   patch: NTEREF
+ - sym: P
+   pka: -7.50
+   apc:
+    N: -0.30
+    HT1: 0.33
+    HT2: 0.33
+    HT3: 0.33
+   #patch: NTEP
+CTE:
+ - sym: R
+   pka: 0.00
+   apc:
+    C: 0.34
+    OT1: -0.17
+    OT2: -0.17
+   patch: CTEREF
+ - sym: D
+   pka: 3.80
+   apc:
+    C: 0.34
+    OT1: -0.67
+    OT2: -0.67

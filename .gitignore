@@ -1,0 +1,5 @@
+#Ignore filetypes typically too large for github
+*.dcd
+*.tar.gz
+#Ignore basic code with old repository attached
+kbp2_from_tar/

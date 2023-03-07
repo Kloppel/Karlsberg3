@@ -1,0 +1,70 @@
+* salt bridge opening patches interacting atoms change
+* by Jovan Dragelj 2014
+*
+27  1
+
+DECL -CA 
+DECL -C 
+DECL -O 
+DECL +N 
+DECL +HN 
+DECL +CA 
+DEFA FIRS NTER LAST CTER 
+AUTO ANGLES DIHE
+
+PRES EPPS         1.00 ! positive glu test for sb function 
+GROUP 
+ATOM OE1  OH1      0.24
+ATOM OE2  OH1      0.24
+
+PRES DPPS         1.00 ! positive glu test for sb function 
+GROUP
+ATOM OD1  OH1      0.24
+ATOM OD2  OH1      0.24
+
+PRES LYSS        -1.00 ! negative lys test for sb function -> change to distrubte charge to less atoms
+GROUP
+ATOM HZ1  HC   -0.34
+ATOM HZ2  HC   -0.33
+ATOM HZ3  HC   -0.34
+ 
+PRES ARGS        -1.00 ! negative arg test for sb function -> change to distribute the charge to less atoms
+GROUP   
+ATOM HH11 HC      -0.04
+ATOM HH12 HC      -0.04
+ATOM HH21 HC      -0.04
+ATOM HH22 HC      -0.04
+
+PRES HSPS        -1.00  ! NEUTRAL His -> negative sb test
+GROUP
+ATOM HD1  H       -0.56
+ATOM HE2  H       -0.56
+
+PRES HSES        -1.00  ! NEUTRAL His -> negative sb test
+GROUP
+ATOM HE2  H       -0.68
+
+PRES HSDS        -1.00  ! Protonated His -> negative sb test
+GROUP
+ATOM HD1  H       -0.68
+
+!PRES TYRS	  1.00  ! Positive tyrosine for opening at ph=-10	
+!GROUP
+!ATOM OH   OH1     1.46
+
+PRES TYRS	  1.00  ! Positive tyrosine for opening at ph=-10	
+GROUP
+ATOM CZ   CA      0.11
+ATOM OH   OH1    0.46
+ATOM HH   H       0.43
+
+PRES CTES         1.00  ! positive CTERminus
+GROUP                  	
+ATOM OT1  OC      0.33 !  
+ATOM OT2  OC      0.33 ! 
+
+PRES NTES           -1.00 ! negative N-terminus
+GROUP                 
+ATOM HT1  HC      -0.33 !      	
+ATOM HT2  HC      -0.34 !    
+ATOM HT3  HC      -0.33 ! 
